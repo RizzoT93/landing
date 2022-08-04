@@ -1,0 +1,101 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/*<!-- code a Hero / Banner section -->*/
+
+.banner{
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  font-size: 2em;
+  padding-left: 40px;
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.btn-first {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*<!-- code a "How it works" section -->*/
+.container2{
+  width: 900px;
+  margin: auto;
+}
+.card{
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+
+}
+
+.container2 h2{
+  text-align: center;
+ }
+
+.cards img {
+  height: 100px;
+}
+
+/*<!-- code a footer -->*/
+.footer{
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer a{
+  font-size: 30px;
+  color: #1EDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
